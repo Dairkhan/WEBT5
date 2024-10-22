@@ -36,3 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
         contactForm.reset();
     });
 });
+
+document.getElementById('play-sound-btn').addEventListener('click', function() {
+    const sound = new Audio('notification_o14egLP.mp3');
+    sound.play();
+});
+
